@@ -15,6 +15,10 @@ class Main {
     // Street Dog (no name, no owner)
     Dog streetDog = new Dog();
 
+    // Dog Daisy
+    Dog daisy = new Dog("Daisy");
+    daisy.setOwnerName("Seth");
+
 
     // Print Fido
     System.out.print(fido.getName() + " ");
@@ -34,5 +38,11 @@ class Main {
     // Print Street Dog
     System.out.print(streetDog.getName() + " ");
     System.out.print("is owned by " + streetDog.getOwnerName());
+    // Print separator line
+    System.out.println();
+    // Print Goofy
+    System.out.print(daisy.getName() + " ");
+    System.out.print("is owned by " + daisy.getOwnerName());
+
   }
 }
